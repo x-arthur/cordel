@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02: 'Passion One', cursive;
+    --font03: 'Sriracha', cursive;
+}
+html, body{
+    /*background-color: darkgray;*/
+    min-height: 100vh;
+    font-family: var(--font01);
+}
+header{
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    
+    
+}
+header > h1{
+    font-size: 4em;
+    font-weight: bolder;
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-family: var(--font02);
+}
+
+header > cite {
+    display: block;
+    padding-bottom: 50px;
+}
+header > cite > a{
+    text-decoration: none;
+    
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 2em;
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: var(--font03);
+    
+}
+
+
+.img{
+    
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    background-attachment: fixed;
+
+}
+#flor{
+    background-image: url('img/background001.jpg');
+    background-position:  right center;
+    
+    
+    
+}
+#folha{
+    background-image: url('img/background002.jpg');
+    background-position: right center;
+    
+    
+    
+}
+footer{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
